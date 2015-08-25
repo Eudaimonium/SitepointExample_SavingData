@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerScripts\PlayerControl.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerScripts\PlayerControl.cs" Line="87" Column="3" />
+      <File FileName="Assets\Scripts\PlayerScripts\PlayerState.cs" Line="29" Column="3" />
+      <File FileName="Assets\Scripts\Interaction\HUDScript.cs" Line="26" Column="47" />
+      <File FileName="Assets\Scripts\Interaction\TransitionScript.cs" Line="26" Column="3" />
+      <File FileName="Assets\Scripts\Level Items\AmmoBoxScript.cs" Line="21" Column="24" />
+      <File FileName="Assets\Scripts\Level Items\HPBoxScript.cs" Line="18" Column="24" />
+      <File FileName="Assets\Scripts\Level Items\XPBoxScript.cs" Line="17" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
