@@ -85,6 +85,9 @@ public class PlayerControl : MonoBehaviour
 		if (cameraTransform == null)
 			cameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
 
+		if (GlobalControl.Instance.TransitionTarget != null)
+			gameObject.transform.position = GlobalControl.Instance.TransitionTarget.position;
+
 	}
 
 	bool IsGrounded() 

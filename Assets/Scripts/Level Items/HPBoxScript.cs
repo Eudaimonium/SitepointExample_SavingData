@@ -15,7 +15,7 @@ public class HPBoxScript : MonoBehaviour, IInteractable
 	}
 	public void Interact ()
 	{
-		PlayerState.Instance.HP += HPAmount;
+		PlayerState.Instance.localPlayerData.HP += HPAmount;
 	}
 	#endregion
 }

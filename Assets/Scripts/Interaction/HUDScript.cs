@@ -21,9 +21,9 @@ public class HUDScript : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		HPText.text = "HP: " + PlayerState.Instance.HP.ToString();
-		AmmoText.text = "Ammo: " + PlayerState.Instance.Ammo.ToString();
-		XPText.text = "XP: " + PlayerState.Instance.XP.ToString();
+		HPText.text = "HP: " + PlayerState.Instance.localPlayerData.HP.ToString();
+		AmmoText.text = "Ammo: " + PlayerState.Instance.localPlayerData.Ammo.ToString();
+		XPText.text = "XP: " + PlayerState.Instance.localPlayerData.XP.ToString();
 
 		AimedAtText.text = AimedObjectString;
 	}

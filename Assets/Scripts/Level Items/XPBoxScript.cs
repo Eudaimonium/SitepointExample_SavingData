@@ -14,7 +14,7 @@ public class XPBoxScript : MonoBehaviour, IInteractable
 	}
 	public void Interact ()
 	{
-		PlayerState.Instance.XP += XPAmount;
+		PlayerState.Instance.localPlayerData.XP += XPAmount;
 	}
 	#endregion
 }

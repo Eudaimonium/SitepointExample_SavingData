@@ -18,7 +18,7 @@ public class AmmoBoxScript : MonoBehaviour, IInteractable
 	}
 	public void Interact ()
 	{
-		PlayerState.Instance.Ammo += AmmoAmount;
+		PlayerState.Instance.localPlayerData.Ammo += AmmoAmount;
 	}
 	#endregion
 }
