@@ -1,7 +1,7 @@
-# SitepointExample #1 SavingData - Starting project
+# SitepointExample #2 Data serialization
 
 
-### An example project for coding a singleton-concept global object for saving data across scene transitions in Unity3D.
+### An example project for implementing a Save/Load game functionality
 - - - 
 
 ## How to use
@@ -28,7 +28,7 @@ You can use the colored cubes in the level to change your stats. You can use the
 
 You are free to download, change, modify, copy and share the contents of this project to your hearts content. You are free to use this project or any of it's parts for any purpose whatsoever, commercial and non-commercial. You don't have to, but I'd be glad if you mentioned me if you use any of my code or assets in your project.
 
-Exempt:
+## Exempt:
 
 This project uses assets from the free "*3rd Person Controller + Fly Mode*" example by Vinicius Marques:
 https://www.assetstore.unity3d.com/en/#!/content/28647
