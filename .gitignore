@@ -218,3 +218,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.bakert
+Temp/UnityLockfile
+Temp/UnityTempFile-ce23a71197affc343ac3bc83560ab3e6
+Temp/UnityTempFile-e72613e23f5d67848a163f76cbe0facc

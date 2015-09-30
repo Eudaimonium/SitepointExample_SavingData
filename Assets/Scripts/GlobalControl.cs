@@ -50,6 +50,7 @@ public class GlobalControl : MonoBehaviour
     }
 
     public PlayerStatistics LocalCopyOfData;
+    public bool IsSceneBeingLoaded = false;
 
     public void SaveData()
     {
