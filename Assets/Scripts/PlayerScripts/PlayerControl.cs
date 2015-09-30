@@ -111,6 +111,11 @@ public class PlayerControl : MonoBehaviour
 	{
         if (Input.GetKey(KeyCode.F5))
         {
+            PlayerState.Instance.localPlayerData.SceneID = Application.loadedLevel;
+            PlayerState.Instance.localPlayerData.PositionX = transform.position.x;
+            PlayerState.Instance.localPlayerData.PositionY = transform.position.y;
+            PlayerState.Instance.localPlayerData.PositionZ = transform.position.z;
+
             GlobalControl.Instance.SaveData();
         }
 
