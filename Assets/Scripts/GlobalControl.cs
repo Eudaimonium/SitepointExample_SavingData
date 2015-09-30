@@ -54,6 +54,9 @@ public class GlobalControl : MonoBehaviour
 
     public void SaveData()
     {
+        if (!Directory.Exists("Saves"))
+            Directory.CreateDirectory("Saves");
+
         BinaryFormatter formatter = new BinaryFormatter();
         FileStream saveFile = File.Create("Saves/save.binary");
 
