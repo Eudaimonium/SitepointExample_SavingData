@@ -88,6 +88,18 @@ public class PlayerControl : MonoBehaviour
 		if (GlobalControl.Instance.TransitionTarget != null)
 			gameObject.transform.position = GlobalControl.Instance.TransitionTarget.position;
 
+
+        if (GlobalControl.Instance.IsSceneBeingLoaded)
+        {
+            PlayerState.Instance.localPlayerData = GlobalControl.Instance.LocalCopyOfData;
+
+            transform.position = new Vector3(
+                            GlobalControl.Instance.LocalCopyOfData.PositionX,
+                            GlobalControl.Instance.LocalCopyOfData.PositionY,
+                            GlobalControl.Instance.LocalCopyOfData.PositionZ + 0.1f);
+
+            GlobalControl.Instance.IsSceneBeingLoaded = false;
+        }
 	}
 
 	bool IsGrounded() 
@@ -97,6 +109,27 @@ public class PlayerControl : MonoBehaviour
 
 	void Update()
 	{
+        if (Input.GetKey(KeyCode.F5))
+        {
+            PlayerState.Instance.localPlayerData.SceneID = Application.loadedLevel;
+            PlayerState.Instance.localPlayerData.PositionX = transform.position.x;
+            PlayerState.Instance.localPlayerData.PositionY = transform.position.y;
+            PlayerState.Instance.localPlayerData.PositionZ = transform.position.z;
+
+            GlobalControl.Instance.SaveData();
+        }
+
+        if (Input.GetKey(KeyCode.F9))
+        {
+            GlobalControl.Instance.LoadData();
+            GlobalControl.Instance.IsSceneBeingLoaded = true;
+
+            int whichScene = GlobalControl.Instance.LocalCopyOfData.SceneID;
+
+            Application.LoadLevel(whichScene);
+        }
+
+
 		// fly
 
 		if (PlayerControl.PlayerHasControl)
