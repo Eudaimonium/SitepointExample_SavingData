@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 495904}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,8 @@ GameObject:
   - 23: {fileID: 2374054}
   - 65: {fileID: 6550586}
   - 54: {fileID: 5404882}
-  m_Layer: 0
+  - 114: {fileID: 11450140}
+  m_Layer: 10
   m_Name: Hilt005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,13 +120,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4124568, y: 1.8756018, z: 0.0481117}
   m_Center: {x: 0, y: 0.4843304, z: 0.0000052498654}
+--- !u!114 &11450140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b151a1eac275fc41b5841bd97deb9fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 118710}

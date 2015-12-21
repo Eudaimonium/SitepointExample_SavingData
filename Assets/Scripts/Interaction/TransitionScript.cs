@@ -24,11 +24,13 @@ public class TransitionScript : MonoBehaviour
 
 	public void Interact()
 	{
-
 		//Assign the transition target location.
 		GlobalControl.Instance.TransitionTarget.position = TargetPlayerLocation.position;
 
-		//Do important stuff :D 
+        //NEW:
+        GlobalControl.Instance.IsSceneBeingTransitioned = true;
+        GlobalControl.Instance.FireSaveEvent();
+        
 		Application.LoadLevel(TargetedSceneIndex);
 	}
 }

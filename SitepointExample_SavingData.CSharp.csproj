@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\Level Items\PotionBox.cs" />
     <Compile Include="Assets\Scripts\Level Items\SwordBox.cs" />
     <Compile Include="Assets\Scripts\Level Items\XPBoxScript.cs" />
+    <Compile Include="Assets\Scripts\LevelMaster.cs" />
     <Compile Include="Assets\Scripts\Pickups\PotionDroppable.cs" />
+    <Compile Include="Assets\Scripts\Pickups\SwordDroppable.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerSound.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerState.cs" />
