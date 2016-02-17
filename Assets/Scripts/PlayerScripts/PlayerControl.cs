@@ -96,7 +96,9 @@ public class PlayerControl : MonoBehaviour
             transform.position = new Vector3(
                             GlobalControl.Instance.LocalCopyOfData.PositionX,
                             GlobalControl.Instance.LocalCopyOfData.PositionY,
-                            GlobalControl.Instance.LocalCopyOfData.PositionZ + 0.1f);            
+                            GlobalControl.Instance.LocalCopyOfData.PositionZ + 0.1f);
+
+            GlobalControl.Instance.IsSceneBeingLoaded = false;
         }
 	}
 
