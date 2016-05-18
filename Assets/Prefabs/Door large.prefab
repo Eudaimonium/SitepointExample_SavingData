@@ -25,9 +25,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161114}
-  m_LocalRotation: {x: -.500000119, y: .49999997, z: .499999851, w: .500000119}
-  m_LocalPosition: {x: 3.58999991, y: .239999995, z: 9.39999962}
-  m_LocalScale: {x: .792445064, y: 1.61999106, z: 1.91138124}
+  m_LocalRotation: {x: -0.5000001, y: 0.49999997, z: 0.49999985, w: 0.5000001}
+  m_LocalPosition: {x: 3.59, y: 0.24, z: 9.4}
+  m_LocalScale: {x: 0.79244506, y: 1.6199911, z: 1.9113812}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -50,8 +50,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -73,8 +75,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .48550266, y: 1.50083983, z: 1.51029849}
-  m_Center: {x: 1.1165223e-06, y: -2.6497176e-07, z: .755149245}
+  m_Size: {x: 0.48550266, y: 1.5008398, z: 1.5102985}
+  m_Center: {x: 0.0000011165223, y: -0.00000026497176, z: 0.75514925}
 --- !u!114 &11429452
 MonoBehaviour:
   m_ObjectHideFlags: 1

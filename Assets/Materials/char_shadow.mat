@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -11,6 +11,7 @@ Material:
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -69,16 +70,16 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .00392156886, g: .00392156886, b: .0117647061, a: 1}
+        second: {r: 0.003921569, g: 0.003921569, b: 0.011764706, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 0, g: 0, b: .0235294122, a: 0}
+        second: {r: 0, g: 0, b: 0.023529412, a: 0}
       data:
         first:
           name: _Emission
-        second: {r: .294117659, g: .486274511, b: .611764729, a: 1}
+        second: {r: 0.29411766, g: 0.4862745, b: 0.6117647, a: 1}
       data:
         first:
           name: _ReflectColor
-        second: {r: .0845588222, g: .554005921, b: .676470578, a: 1}
+        second: {r: 0.08455882, g: 0.5540059, b: 0.6764706, a: 1}
