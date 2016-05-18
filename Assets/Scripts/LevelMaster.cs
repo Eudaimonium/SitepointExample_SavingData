@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class LevelMaster : MonoBehaviour
 {
-
     public GameObject PotionPrefab;
     public GameObject SwordPrefab;
     

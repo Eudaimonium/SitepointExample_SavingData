@@ -36,11 +36,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 163492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e09cd27e9bb79414c9a994132766b9ec, type: 3}
+  m_Script: {fileID: 11500000, guid: dace8481338585f45a027b8e1fffc40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PotionPrefab: {fileID: 135732, guid: 4c05decfb4280cb49af49bd388892be9, type: 2}
-  SwordPrefab: {fileID: 118710, guid: 1b72a2116f3d0ca489b9df4c8989668a, type: 2}
+  PotionPrefab: {fileID: 0}
+  SwordPrefab: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

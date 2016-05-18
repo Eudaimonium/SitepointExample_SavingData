@@ -95,6 +95,7 @@ public class GlobalControl : MonoBehaviour
                 return SavedLists[i];
         }
 
+        print("Total list count: " + SavedLists.Count.ToString() + " , not found index: " + SceneManager.GetActiveScene().buildIndex.ToString());
         return null;
     }
 
